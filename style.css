@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b0f3a;
+  color: white;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #11166b;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  padding: 8px;
+  background: #3c4cff;
+  border-radius: 5px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* GAMES */
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background: #1b1f6b;
+  margin: 10px;
+  padding: 10px;
+  width: 180px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* REVIEWS */
+#reviews {
+  padding: 20px;
+}
+
+.review {
+  background: #d9c7f0;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+/* CONTACT */
+#contact {
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  padding: 10px;
+  background: orange;
+  border: none;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #11166b;
+}
